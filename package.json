@@ -1,0 +1,17 @@
+{
+  "name": "babel-jest-unit-tests-demo",
+  "version": "1.0.0",
+  "description": "A demo repo to explain use of babel-jest & mocking imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "pranavwaikar@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-mockable-imports": "^1.7.1"
+  }
+}
